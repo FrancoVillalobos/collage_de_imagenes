@@ -3,7 +3,6 @@ const app = express();
 const expressFileUpload = require('express-fileupload');
 const bodyParser = require('body-parser');
 const fs = require('fs')
-const PORT = 3000;
 
 // Middleware body-parser para analizar el body del payload mediante la propiedad req.body
 app.use(bodyParser.urlencoded({ extended: true }));
